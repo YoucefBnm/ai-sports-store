@@ -1,7 +1,7 @@
+
 .hero {
     min-height: 85vh;
     height: 85vh;
-    background-color: red;
     overflow: hidden;
 }
 .hero .d-flex {
@@ -19,6 +19,7 @@
 .hero-img {
     background-size: 100%;
     position: relative;
+    background-size: cover;
 }
 .hero-img::after {
     content: '';
@@ -35,4 +36,43 @@
 .hero-img-2 {
     background-image: url('../../assets/bg-2.jpg');
     background-position: bottom;
+}
+
+@media(max-width: 640px) {
+    .hero-text {
+        padding: 2rem 0 !important;
+        width: 100% !important;
+    }
+    .hero-img-1 {
+        display: none;
+    }
+    .hero-img-2 {
+        height: 100%;
+        width: 100% !important;
+        background-size: 100% 60%;
+    }
+    .hero-content {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        
+    }
+    
+}
+
+@media(max-width: 900px) {
+    .hero-text {
+        padding: 2rem 0 !important;
+        width: 40%;
+    }
+    .hero-img-1 {
+        display: none;
+    }
+    .hero-img-2 {
+        width: 60%;
+    }
+    .hero-content {
+        
+        
+    }
+    
 }

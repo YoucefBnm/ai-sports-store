@@ -1,0 +1,6 @@
+@media(max-width: 640px) {
+    .video .container-xxl {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

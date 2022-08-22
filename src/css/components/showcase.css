@@ -28,3 +28,22 @@
 .showcase-text .btn {
     font-weight: 500;
 }
+
+@media(max-width: 640px) {
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .showcase-content {
+        width: 100%;
+        padding: 5rem 2rem !important;
+    }
+    .showcase-col1 {
+        width: 100% !important;
+    }
+    .showcase-img-full {
+        width: 100%;
+    }
+}

@@ -29,3 +29,9 @@
     left: 2rem;
     color: #FFF;
 }
+
+@media(max-width: 640px) {
+    .gallery-col {
+        width: 100%;
+    }
+}

@@ -89,14 +89,14 @@
     <!-- hero section start -->
     <div class="hero">
         <div class="d-flex align-items-stretch hero-content">
-            <div class="hero-text d-flex flex-column align-items-start justify-content-center col-3" >
+            <div class="hero-text d-flex flex-column align-items-start justify-content-center col-sm-3" >
                 <div class="container">
                     <h1 class="h1 mb-3">HERO IMAGE</h1>
                     <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
                     <button class="btn bg-white px-4 text-dark fw-bold">SHOP NOW</button>
                 </div>
             </div>
-            <div class="col-4 hero-img hero-img-1"></div>
+            <div class="col-5 hero-img hero-img-1"></div>
             
             <div class="col-5 hero-img hero-img-2"></div>
         </div>
@@ -139,11 +139,41 @@
         </section>
         <!-- category section end -->
 
+
+
+        <!-- <div class="gallery-col swiper-slide col-4">
+            <img src="./assets/gallery-neon.jpg" alt="neon person">
+            <div class="gallery-info">
+                <h6>LOREM IPSUM</h6>
+                <small>Consectetur Adipiscing</small>
+                <strong>$50.00</strong>
+            </div>
+        </div>
+
+        <div class="gallery-col swiper-slide col-4">
+            <img src="./assets/woman-gallery.jpg" alt="neon person">
+            <div class="gallery-info">
+                <h6>LOREM IPSUM</h6>
+                <small>Consectetur Adipiscing</small>
+                <strong>$50.00</strong>
+            </div>
+        </div>
+
+        <div class="gallery-col swiper-slide col-4">
+            <img src="./assets/gallery-bag.jpg" alt="neon person">
+            <div class="gallery-info">
+                <h6>LOREM IPSUM</h6>
+                <small>Consectetur Adipiscing</small>
+                <strong>$50.00</strong>
+            </div>
+        </div> -->
+
+
         <!-- gallery section start -->
         <section class="gallery">
-            <div class="d-flex row flex-wrap">
+            <div class="d-flex row flex-wrap gallery-row mb-5">
                 <div class="gallery-col col-4">
-                    <img src="./assets/gallery-neon.jpg" alt="neon person">
+                    <img src="./assets/gallery-bag.jpg" alt="neon person">
                     <div class="gallery-info">
                         <h6>LOREM IPSUM</h6>
                         <small>Consectetur Adipiscing</small>
@@ -161,7 +191,7 @@
                 </div>
 
                 <div class="gallery-col col-4">
-                    <img src="./assets/gallery-bag.jpg" alt="neon person">
+                    <img src="./assets/gallery-neon.jpg" alt="neon person">
                     <div class="gallery-info">
                         <h6>LOREM IPSUM</h6>
                         <small>Consectetur Adipiscing</small>
@@ -170,7 +200,7 @@
                 </div>
 
             </div>
-            <div class="d-flex row flex-wrap mb-5">
+            <div class="d-flex row flex-wrap gallery-row mb-5">
                 <div class="gallery-col col-4">
                     <img src="./assets/gallery-bag.jpg" alt="neon person">
                     <div class="gallery-info">
@@ -201,6 +231,7 @@
             </div>
         </section>
         <!-- gallery secton end -->
+        
         <section class="cta">
             <div class="container-xxl" style="height: 100%;">
                 <div style="height: 100%;" class="row d-flex align-items-stretch">
@@ -209,14 +240,14 @@
                             <p class="display-6 cta-quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit.!</p>
                             <small>Name Here</small>
                         </blockquote>
-                        <button class="btn bg-white text-dark cta-btn px-4">SHOP NOW</button>
+                        <button class="btn bg-white fw-bold text-dark cta-btn px-4">SHOP NOW</button>
                     </div>
                     <div class="col-2 cta-img"></div>
                 </div>
             </div>
         </section>
 
-        <section class="cta mt-xl-5">
+        <section class="cta cta-2 mt-xl-5">
             <div class="container-xxl" style="height: 100%;">
                 <div style="height: 100%;" class="row d-flex align-items-stretch">
                     <div class="col-10" style="height: 100%;">
@@ -224,7 +255,7 @@
                             <p class="display-6 cta-quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit.!</p>
                             <small>Name Here</small>
                         </blockquote>
-                        <button class="btn bg-white text-dark cta-btn px-4">SHOP NOW</button>
+                        <button class="btn bg-white fw-bold text-dark cta-btn px-4">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -238,7 +269,7 @@
                             <p class="display-6 cta-quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit.!</p>
                             <small>Name Here</small>
                         </blockquote>
-                        <button class="btn bg-white text-dark cta-btn px-4">SHOP NOW</button>
+                        <button class="btn bg-white fw-bold text-dark cta-btn px-4">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -246,11 +277,13 @@
 
         <section class="products">
             <div class="container-xxl py-lg-5">
-                <div class="col-9 d-flex align-content-center gap-3">
+                <div class="col-9 d-flex products-header flex-wrap align-content-center gap-3">
                     <h3 class="text-white me-md-1">PRODUCTS CAROUSEL</h3>
-                    <button class="btn btn-light px-5">MEN</button>
-                    <button class="btn btn-outline-light px-5">WOMEN</button>
-                    <button class="btn btn-outline-light px-5">KIDS</button>
+                    <div class="btns-wrap d-flex gap-4">
+                        <button class="btn btn-light px-5">MEN</button>
+                        <button class="btn btn-outline-light px-5">WOMEN</button>
+                        <button class="btn btn-outline-light px-5">KIDS</button>
+                    </div>
                 </div>
 
                 <div class="products-container mt-5">
@@ -300,11 +333,13 @@
 
         <section class="products products-2 mt-5">
             <div class="container-xxl py-lg-5">
-                <div class="col-9 d-flex align-content-center gap-3">
+                <div class="col-9 d-flex flex-wrap products-header align-content-center gap-3">
                     <h3 class="text-dark me-md-1">PRODUCTS CAROUSEL</h3>
-                    <button class="btn btn-dark px-5">MEN</button>
-                    <button class="btn btn-outline-dark px-5">WOMEN</button>
-                    <button class="btn btn-outline-dark px-5">KIDS</button>
+                    <div class="btns-wrap d-flex gap-4">
+                        <button class="btn btn-dark px-5">MEN</button>
+                        <button class="btn btn-outline-dark px-5">WOMEN</button>
+                        <button class="btn btn-outline-dark px-5">KIDS</button>
+                    </div>
                 </div>
 
                 <div class="products-container mt-5">
@@ -361,8 +396,8 @@
         </section>
 
         <section class="showcase d-flex">
-            <div class="d-flex flex-column col-4">
-                <div class="showcase-content d-flex align-items-center py-3">
+            <div class="d-flex showcase-col1 flex-column col-4">
+                <div class="showcase-content d-flex align-items-center pt-lg-3 pb-1">
                     <div class="showcase-text d-flex flex-column justify-content-center align-items-start">
                         <h3>COLLECTION TILED IMAGE</h3>
                         <button class="btn btn-outline-light px-4">SHOP NOW</button>
@@ -378,7 +413,7 @@
         </section>
 
         <section class="coupons my-5">
-            <div class="container-xl d-flex justify-content-between align-items-center gap-2">
+            <div class="container-xl d-flex flex-wrap justify-content-between align-items-center gap-2">
                 <div class="col-3 coupon">
                     <h1 class="fw-normal">UNDER <strong class="fw-bolder">$20</strong></h1>
                 </div>
@@ -395,7 +430,7 @@
         </section>
 
         <section class="gender mb-5">
-            <div class="container-lg d-flex justify-content-center gap-5">
+            <div class="container-lg d-flex flex-wrap justify-content-center gap-5">
                 <div class="col-woman col-5 d-flex flex-column justify-content-end align-items-center">
                     <button class="btn btn-light">WOMENS HATS</button>
                     <button class="btn btn-light">WOMENS T-SHIRTS</button>
@@ -456,7 +491,7 @@
     </main>
 
     <footer class="footer mt-5">
-        <div style="border-bottom: 2px solid #fff;" class="container-xxl d-flex justify-content-between py-3">
+        <div style="border-bottom: 2px solid #fff;" class="container-xxl footer-container d-flex justify-content-between py-3">
             <nav class="footer-nav col-6 d-flex justify-content-start">
                 <div class="footer-col">
                     <ul class="d-flex flex-column justify-content-start align-items-start">
@@ -501,14 +536,15 @@
                     </ul>
                 </div>
             </nav>
-            <div class="col-4 footer-inputGroup">
+            <div class="col-4 footer-inputGroup footer-signup">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control btn-outline-light ps-4" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <div class="input-group-append">
                       <button class="btn btn-outline-light" type="button">Sign Up</button>
                     </div>
-                    <small class="mt-1 text-white">By signin up you agree to receive promotional emails</small>
                 </div>
+                <small class="mt-1 text-white">By signin up you agree to receive promotional emails</small>
+
             </div>
         </div>
         
@@ -525,7 +561,7 @@
                 </a>
             </div>
             
-            <div class="col-6">
+            <div class="col-6 copyright">
                 <small class="text-white">Copyright &copy; 2022 &nbsp; All rights reserved. | Link1 | Link2 | Link 3</small>
             </div>
             <div class="payment d-flex gap-3">

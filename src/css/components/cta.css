@@ -65,3 +65,21 @@
     position: relative;
     z-index: 1;
 }
+
+@media(max-width: 900px) {
+    .cta {
+        height: 100%;
+    }
+    .cta .col-10 {
+        padding: 3rem 2rem;
+    }
+    .cta .col-10 .btn {
+        width: 50%;
+    }
+    .cta-2 {
+        display: none;
+    }
+    .cta-3 {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/_PROJECTS/gradient-overlay"
+		},
+		{
+			"path": "../../Documents/_PROJECTS/SASS-Tuto"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AI-Sports-Store"
+	}
+}

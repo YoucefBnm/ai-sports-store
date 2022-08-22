@@ -1,6 +1,3 @@
-.coupons {
-    
-}
 
 .coupon {
     background-color: #000;
@@ -12,4 +9,16 @@
 }
 .coupon strong {
     font-weight: 900;
+}
+
+@media(max-width: 640px) {
+    .coupons .container-xl {
+        display: flex !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 1rem !important;
+    }   
+    .coupon {
+        width: 47%;
+    }
 }

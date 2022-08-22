@@ -4,6 +4,7 @@
 @import './components/gallery.css';
 @import './components/cta.css';
 @import './components/products.css';
+@import './components/video.css';
 @import './components/showcase.css';
 @import './components/coupons.css';
 @import './components/gender.css';
@@ -12,6 +13,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-
 }
 
+@media(max-width: 600px) {
+    html {
+        /* font-size: 50%; */
+    }
+}

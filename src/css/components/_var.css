@@ -1,0 +1,6 @@
+:root {
+    --mobile-breakpoint: 600px;
+    --tabPort-breakpoint: 900px;
+    --tabLand-breakpoint: 1200px;
+    --lgDesktop-breakpoint: 1800px;
+}

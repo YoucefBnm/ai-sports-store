@@ -24,9 +24,19 @@
 .product-item h6 {
     margin-bottom: 0;
 }
-.product-item img{
-}
-.product-item strong {
-}
-.product-item p {
+@media(max-width: 640px) {
+    .products,
+    .products-2 {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        padding-right: 0 !important;
+        padding-left: .5rem !important;
+    }
+    .container-xxl{
+        padding-bottom: 2rem!important;
+    }
+    .products-header .btn {
+        padding-right: 1.7rem !important;
+        padding-left: 1.7rem !important;
+    }
 }

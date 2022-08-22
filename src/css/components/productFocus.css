@@ -28,3 +28,42 @@
 .displayProducts-info h6 {
     margin-bottom: 0;
 }
+
+@media(max-width: 640px) {
+    .productFocus {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .prouctFocus-text {
+        width: 100%;
+        padding: 3rem 1.5rem;
+    }
+    .productFocus-image {
+        width: 100%;
+        height: 200px;
+    }
+    .displayProducts-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.5rem;
+        transform: translateY(-3.5rem);
+    }
+    .displayProducts-card {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 47% !important;
+        padding-top: .8rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    .displayProducts-image {
+        width: 100%;
+    }
+    .displayProducts-info {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
