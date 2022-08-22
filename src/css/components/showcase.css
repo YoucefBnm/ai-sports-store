@@ -1,0 +1,30 @@
+.showcase {
+    min-height: 75vh;
+    height: 75vh;
+}
+.showcase-content {
+    background-color: #000;
+    height: 40%;
+    color: #fff;
+}
+.showcase-text {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.showcase-img-sm {
+    height: 60%;
+}
+.showcase-img-sm img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.showcase-img-full img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.showcase-text .btn {
+    font-weight: 500;
+}

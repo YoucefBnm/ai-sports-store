@@ -1,0 +1,31 @@
+.gallery {
+}
+
+.gallery-col {
+    position: relative;
+    height: 350px;
+}
+.gallery-col::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.23);
+}
+.gallery-col img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: fill;
+}
+
+.gallery-info {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: #FFF;
+}

@@ -1,0 +1,21 @@
+
+.col-woman {
+    background-image: url('../../assets/gender-woman.jpg');
+}
+.col-man {
+    background-image: url('../../assets/gender-man.jpg');
+}
+
+.col-woman,
+.col-man {
+    height: 400px;
+    background-size: 100% 100%;
+    padding-bottom: 1rem;
+}
+.gender .btn {
+    width: 40%;
+    font-weight: 500;
+}
+.gender .btn:not(:last-child) {
+    margin-bottom: 1rem;
+}

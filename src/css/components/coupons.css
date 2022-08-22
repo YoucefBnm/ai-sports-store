@@ -1,0 +1,15 @@
+.coupons {
+    
+}
+
+.coupon {
+    background-color: #000;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.coupon strong {
+    font-weight: 900;
+}

@@ -1,0 +1,27 @@
+.footer {
+    background-color: #000;
+
+}
+
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col ul {
+    color: #fff;
+}
+.footer-col ul li a {
+    font-weight: 300;
+
+}
+.footer-col ul h6 {
+    margin-bottom: 1.5rem;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.footer-inputGroup .input-group .form-control {
+    background-color: transparent;
+    border-radius: 0 !important;
+    color: #fff;
+}

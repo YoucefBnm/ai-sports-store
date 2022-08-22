@@ -1,8 +1,14 @@
 @import './components/navbar.css';
 @import './components/hero.css';
 @import './components/category.css';
+@import './components/gallery.css';
 @import './components/cta.css';
 @import './components/products.css';
+@import './components/showcase.css';
+@import './components/coupons.css';
+@import './components/gender.css';
+@import './components/productFocus.css';
+@import './components/footer.css';
 
 body {
     font-family: 'Roboto', sans-serif;
