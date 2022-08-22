@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #000;
+}
+.nav-link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.navbar-input:focus {
+    background-color: #000 !important;
+}
+.dropdown {
+}
+.navbar-inputField {
+    background-color: transparent;
+    border: none;
+
+}
+.bi {
+    color: #FFFFFF;
+    font-weight: 700 !important;
+}
+.btn {
+    border-radius: 0;
+}

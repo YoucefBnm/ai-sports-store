@@ -1,0 +1,38 @@
+.hero {
+    min-height: 85vh;
+    height: 85vh;
+    background-color: red;
+    overflow: hidden;
+}
+.hero .d-flex {
+    height: 100%;
+}
+.hero-content {
+    /* display: grid;
+    grid-template-columns: .6fr 1fr 1fr; */
+}
+.hero-text {
+    background-color: #000;
+    color: #FFFFFF;
+    height: 100%;
+}
+.hero-img {
+    background-size: 100%;
+    position: relative;
+}
+.hero-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.23);
+}
+.hero-img-1 {
+    background-image: url('../../assets/bg-1.jpg');
+}
+.hero-img-2 {
+    background-image: url('../../assets/bg-2.jpg');
+    background-position: bottom;
+}

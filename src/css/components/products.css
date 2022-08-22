@@ -1,0 +1,32 @@
+.products {
+    background-color: #000;
+
+}
+.products-2 {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    background-color: #FFFFFF;
+    
+}
+.products-2 .product-item {
+    color: #000;
+}
+.product-item {
+    color: #fff;
+}
+.product-item .display-6 {
+    margin-bottom: 0;
+    font-weight: 300;
+    margin-top: 0;
+    font-size: 1em;
+}
+.product-item h6 {
+    margin-bottom: 0;
+}
+.product-item img{
+}
+.product-item strong {
+}
+.product-item p {
+}
